@@ -4,13 +4,14 @@ body{
     background-image: url("background-pattern-mobile.svg") ;
     background-repeat: no-repeat;
     width: 100%;
-    height:100vh;
     background-color: hsl(275,100%,97%);
     display: grid;
     place-items: center;
 }
-#main-part{padding: 0;
-    margin-top:20%;
+#main-part{
+    margin-top: 7rem;
+    border-radius: 0.5rem;
+    padding: 0;
     width: 20rem;
     background: hsl(0,0%,100%);
 }
@@ -20,6 +21,9 @@ body{
 #heading-1{
     font-weight: 700 ;
     display: inline;
+}
+#heading-41{
+    font-size: 1rem;
 }
 #star{
     width: 20px;
@@ -74,7 +78,16 @@ hr{
         width: 100%;
         background-repeat: no-repeat;
     }
+    #main-part{
+        width: 25rem;
+    }
+    .plus{
+        margin-left: 5rem;
+    }
+    .minus{
+        width: 18em;
+    }
 }
 #footer{
-    margin-top: auto;
+    margin-top: 99vh;
 }
